@@ -1,4 +1,5 @@
 param(
+[Parameter(Mandatory=$true)]
 $EventId,
 $Newest = 5 ,
 $Computername = "localhost"
